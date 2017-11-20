@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.VectorAssembler","timestamp":1511219493152,"sparkVersion":"2.2.0","uid":"vecAssembler_eb9a47eb0213","paramMap":{"outputCol":"features","inputCols":["tfidf","days_campaign","hours_prepa","goal","countryVec","currencyVec"]}}
