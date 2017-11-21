@@ -188,7 +188,7 @@ object Preprocessor {
 
     /** WRITING DATAFRAME **/
 
-    //dfFiltered.write.mode(SaveMode.Overwrite).parquet("/Users/remi/Desktop/Cours/Scala/TP_parisTech_2017_2018/data/prepared_trainingset")
+    dfFiltered.write.mode(SaveMode.Overwrite).parquet("./data/prepared_trainingset")
 
 
 
